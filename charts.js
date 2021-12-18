@@ -79,7 +79,11 @@ function buildCharts(sample) {
         y: yticks,
         text: otuLabels,
         type: "bar",
-        orientation: "h", 
+        orientation: "h",
+        marker:{
+          color: "gold",
+        }
+        
       }];
       
       var barLayout = {title: "<b>Top 10 Bacteria Cultures</b>"};
@@ -96,7 +100,7 @@ function buildCharts(sample) {
           marker:{
               size: sampleValues,  
               color: otuIds,
-              colorscale: 'Earth'  
+              colorscale: "Earth",  
           }
       };
     
@@ -122,10 +126,10 @@ function buildCharts(sample) {
             axis: { range: [null, 10] },
             bar: { color: "black" },
             steps: [
-              { range: [0, 2], color: "red" },
+              { range: [0, 2], color: "brown" },
               { range: [2, 4], color: "orange" },
-              { range: [4, 6], color: "yellow" },
-              { range: [6, 8], color: "lightgreen" },
+              { range: [4, 6], color: "gold" },
+              { range: [6, 8], color: "limegreen" },
               { range: [8, 10], color: "green" }],
             },  
         }];
