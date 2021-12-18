@@ -1,1 +1,3 @@
 # INTERACTIVE_VISUALIZATIONS_AND_DASHBOARD
+
+![HTML_IMAGE](https://user-images.githubusercontent.com/82008319/146647221-ab2f1a58-d8e2-47db-9e6c-9916851c0b2f.jpg)
